@@ -7,12 +7,16 @@
 
 import SwiftUI
 
+/// Reusable emoji decorator
 struct EmojiView: View {
+    let symbol: String
+    let size: CGFloat
+    let x: CGFloat
+    let y: CGFloat
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(symbol)
+            .font(.system(size: size))
+            .offset(x: x, y: y)
+        
     }
-}
-
-#Preview {
-    EmojiView()
 }
