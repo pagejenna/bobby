@@ -7,6 +7,13 @@
 
 import SwiftUI
 
+//  File.swift
+//  bobby
+//
+//  Created by T Krobot on 2/8/25.
+//
+
+import SwiftUI
 /// Basic stickman
 struct StickMan: Shape {
     func path(in rect: CGRect) -> Path {

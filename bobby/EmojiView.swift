@@ -1,9 +1,9 @@
 //
+<<<<<<< HEAD
 //  EmojiView.swift
 //  bobby
 //
 //  Created by jenna on 2/8/25.
-//
 
 import SwiftUI
 
