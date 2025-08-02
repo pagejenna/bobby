@@ -15,7 +15,11 @@ struct ContentView: View {
 
             // Add more EmojiViews to decorate your Bobby
             EmojiView(symbol: "🩲", size: 80, x: 0,  y: 10)
+            EmojiView(symbol: "👢", size: 80, x: 40,  y: 60)
+            EmojiView(symbol: "👢", size: 80, x: -20,  y: 60,)
             EmojiView(symbol: "👕", size: 100, x: 0,  y: -45)
+            EmojiView(symbol: "🫵", size: 60, x: -30,  y: -60,)
+            EmojiView(symbol: "👎", size: 60, x: 60,  y: -50,)
             EmojiView(symbol: "💀", size: 100, x: 0,  y: -130)
             EmojiView(symbol: "🥽", size: 80, x: 0,  y: -135)
             
@@ -71,6 +75,7 @@ struct EmojiView: View {
         Text(symbol)
             .font(.system(size: size))
             .offset(x: x, y: y)
+            
     }
 }
 
